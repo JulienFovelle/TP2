@@ -1,38 +1,38 @@
-#container
-{
-	margin: 0 30px;
-	background: #fff;
+body {
+    background: url(geometry2.png) repeat static;
 }
 
-#header
-{
+
+#container {
+	margin: 0 30px;
+	background: #fff;
+    background: url(geometry2.png) repeat static;
+}
+
+#header {
 	background: #ccc;
 	padding: 20px;
 }
 
 #header h1 { margin: 0; }
 
-#navigation
-{
+#navigation {
 	float: left;
 	width: 100%;
 	background: #333;
 }
 
-#navigation ul
-{
+#navigation ul {
 	margin: 0;
 	padding: 0;
 }
 
-#navigation ul li
-{
+#navigation ul li {
 	list-style-type: none;
 	display: inline;
 }
 
-#navigation li a
-{
+#navigation li a {
 	display: block;
 	float: left;
 	padding: 5px 10px;
