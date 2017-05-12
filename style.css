@@ -1,12 +1,12 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background-image:url(4345281.jpg);
 }
 
 #header
 {
-	background: #ccc;
+	background-color: #ffffff;
 	padding: 20px;
 }
 
@@ -45,6 +45,7 @@
 
 #edito
 {
+    background: #000000;
 	clear: left;
 	padding: 20px;
 	margin: 20px;
@@ -62,7 +63,7 @@
 
 #edito h2
 {
-	color: #000;
+	color: #ffffff;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
