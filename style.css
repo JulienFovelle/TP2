@@ -1,20 +1,50 @@
+*{
+	margin-top:3
+        px;
+	padding:0px;
+}
+
 body {
-    background: url(geometry2.png) repeat static;
+       background-image:url(geometry2.png) repeat;
+           	background-attachment: fixed;
 }
 
 
 #container {
 	margin: 0 30px;
 	background: #fff;
-    background: url(geometry2.png) repeat static;
+    background-image:url(geometry2.png);
 }
 
 #header {
-	background: #ccc;
+	background: rgba(0, 0, 0, 0.2);
 	padding: 20px;
+    
+    transition: all 1s;
+    
+   -moz-box-shadow: 5px 7px 10px 0px #656565;
+-webkit-box-shadow: 5px 7px 10px 0px #656565;
+-o-box-shadow: 5px 7px 10px 0px #656565;
+box-shadow: 5px 7px 10px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=144, Strength=10);
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+    
 }
 
-#header h1 { margin: 0; }
+#header:hover {
+	border-color: #333;
+	border-radius: 50%;
+}
+
+#header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
 
 #navigation {
 	float: left;
@@ -58,6 +88,16 @@ body {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    
+    -moz-box-shadow: 5px 7px 10px 0px #656565;
+-webkit-box-shadow: 5px 7px 10px 0px #656565;
+-o-box-shadow: 5px 7px 10px 0px #656565;
+box-shadow: 5px 7px 10px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=144, Strength=10);
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+    
 }
 
 #edito h2
@@ -83,12 +123,21 @@ body {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    
+    -moz-box-shadow: 5px 7px 10px 0px #656565;
+-webkit-box-shadow: 5px 7px 10px 0px #656565;
+-o-box-shadow: 5px 7px 10px 0px #656565;
+box-shadow: 5px 7px 10px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=144, Strength=10);
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: rgba(0, 0, 0, 0.08);
 	text-align: right;
 	padding: 20px;
 	height: 1%;
